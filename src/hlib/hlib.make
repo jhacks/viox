@@ -1,4 +1,4 @@
-##Makefile
+##hlib.make
 ##VIOX64
 ##Virtual Bios Hypervisor 4 AMD64 Fam10+ 2 free & happy GPL3 hacking.
 ##Author: jhacks hack hersteller jhackher@gmail.com
@@ -6,8 +6,5 @@
 ##A copy of the license should be found in LICENSE.txt and/or COPYING.txt file.
 ##In any case latest version is in http://www.gnu.org/licenses/gpl.html
 ##
-# viox64/src/hlib/Makefile v.0.1
-hlibsrc = .
-#
-include $(hlibsrc)/hlib.mk
-#
+#TODO
+
