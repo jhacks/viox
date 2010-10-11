@@ -1,4 +1,4 @@
-/*SMI0Handler.hpp
+/*SMI0Handler.x64.hpp
 VIOX64
 Virtual Bios Hypervisor 4 AMD64 Fam10+ (&i64) 2 free & happy GPL3 hacking.
 Author: jhacks hack hersteller jhackher@gmail.com
