@@ -9,4 +9,9 @@
 *.elf
 *.o
 *.rom
+*.gzip
+*.tmp
+/tmp
+/dist
+/out
 
