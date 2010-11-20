@@ -8,3 +8,13 @@
 //
 //TODO
 
+1.-	Introduction.
+
+	This is the DOM_U component of the proyect; In other words, is the place where the guest binary os is run.
+
+	NOTE: In EPROM-coreboot configurations, we should teoretically support the execution of GRUB + OS from whitin viox (virtualized), and in a more stable phase of development, we coud try to do full meta-virtualization (BIOS -> GRUB -> (XEN ->) OS)
+
+		To ease things in early stages of development we implement first the "downcoring approach"; We "falsificate" processor capabilities information, specially the virtualization capabilities of the processor, deniyng those capabilities back to the virtualized guest os; Causing the os to desist to use those capabilities and, and so avoiding the guest os to "panic" if we do not exactly manipulate data, timers etc sent back to the os; This would cause from the guest os point of view "deja-vus" or jumps in time, "data-ghosting" or data that appears, and dissapears without apparent cause causing that the error-check code inside the guest os to "panic" supposing hardware faillure.
+
+
+

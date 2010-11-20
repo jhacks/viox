@@ -1,10 +1,18 @@
 //vx.txt
 //VIOX64
-//Virtual Bios Hypervisor 4 AMD64 Fam10+ (&ia64) 2 free & happy GPL3 hacking.
-//Author: jhacks hack hersteller jhackher@gmail.com
+//Virtual Bios Hypervisor 4 AMD64 Fam10+ 2 free & happy GPL3 hacking.
+//Author: jhacks jhackher@gmail.com
 //This program is released under the GNU GPL license v3 or later version, WHITHOUT ANY WARRANTY.
 //A copy of the license should be found in jhacks.LICENSE.txt and/or COPYING.txt file.
 //In any case latest version is in http://www.gnu.org/licenses/gpl.html
 //
 //TODO
+1.-	Introduction.
+
+	This is the executable entry point of the proyect, to be run basically in two different ways:
+
+1.1.-	Viox burned in system firmware EPROM and run as a COREBOOT payload.
+
+1.2.-	Viox saved on disk and run as a GRUB kernel.
+
 

@@ -43,7 +43,6 @@ cp $SYSLDIR/core/ldlinux.elf $VIOXDIR/syslinux.elf
 #make install
 #make dist
 
-
 #make viox64
 
 #make ROM image viox64

@@ -7,4 +7,11 @@
 //In any case latest version is in http://www.gnu.org/licenses/gpl.html
 //
 //TODO
+Here come the documentation of the x86-64 system architecture dependent classes.
+
+All architecture-dependent code must come only in this module (hlib) and under a distinctive
+extension (.x64 for x86-64 or .i64 for ia64)
+
+Under this component we implement all classes, interfaces and other c++ resources to resemble a exact binary implementation of processor system resources relevant to the transparent virtualization of the guest os.
+
 

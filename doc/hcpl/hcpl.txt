@@ -8,3 +8,12 @@
 //
 //TODO
 
+1.-	Introduction.
+
+	This is the DOM_0 equivalent of the proyect.
+
+	In this component we put the free trusted drivers needed to manage the devices in behalf of the virtualized quest os. (In the first version it is not planned to support more than one guest os at time; This fact simplifies the process of trap, inspect and or manage the request (if we are interested to and have set up the corresponding triggers) pass it to the free trusted drives, run the post-driver cleanup works (such as timers manipulation) to keep the guest os unaware of the virtualization.
+
+	To acomplish this task we need to put here free trusted tools to inspect and send relevant information of the status of relevant system resources back to the developer.
+
+

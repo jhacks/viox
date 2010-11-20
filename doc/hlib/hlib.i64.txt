@@ -1,10 +1,16 @@
 //hlib.i64.txt
 //VIOX64
 //Virtual Bios Hypervisor 4 AMD64 Fam10+ (&ia64) 2 free & happy GPL3 hacking.
-//Author: jhacks hack hersteller jhackher@gmail.com
+//Author: jhacks jhackher@gmail.com
 //This program is released under the GNU GPL license v3 or later version, WHITHOUT ANY WARRANTY.
 //A copy of the license should be found in jhacks.LICENSE.txt and/or COPYING.txt file.
 //In any case latest version is in http://www.gnu.org/licenses/gpl.html
 //
 //TODO
+Here come the documentation of the ia64 system architecture dependent classes.
+
+All architecture-dependent code must come only in this module (hlib) and under a distinctive
+extension (.i64 for ia64 or .x64 for x86-64)
+
+NOTE: The implementation of this architecture (ia64) is planned at a later stage of development. (after the amd64 one)
 

@@ -8,6 +8,8 @@
 ##
 *.elf
 *.o
+*.out
+*.a
 *.rom
 *.gzip
 *.tmp

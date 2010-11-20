@@ -7,4 +7,8 @@
 //In any case latest version is in http://www.gnu.org/licenses/gpl.html
 //
 //TODO VIOX64
+1.-	Introduction.
+
+	The goal of this proyect is to build a micro-hypervisor able to run unmodified guest os's and serve as a fundamental tool for the system programer to debug, test etc. with the help of free tools that can be co-located in DOM_0 (HCPL) and inspect memory and registers, system tables; set triggers to trap every type of system events etc. of the virtualized system in DOM_U (GDK).
+
 
